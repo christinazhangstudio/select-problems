@@ -21,7 +21,7 @@ This repository consists of code for selected algorithms, data structures, or co
 This program uses heaps to create a priority queue.  Also included is a driver file that demos the PQ implementation and a makefile to compile the files. 
 
 - - - -
-## [Recursion and Dynamic Programming - Pebble Example](RecursionAndDP) <a name="pebble"/>
+## [Recursion and Dynamic Programming - Pebble Example](RecursionAndDP.c) <a name="pebble"/>
 Consider the following simple two player game:
 - There is a pile of *n* pebbles.
 - The  players  take  turns  removing  pebbles  from  the  pile.  Specifically  they **must** do one of the following on their turn:
