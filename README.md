@@ -57,9 +57,10 @@ Here is the DP table for *n* = 9:
 
 - - - -
 ## Acknowledgements and sources <a name="ack">
-UTSA CS2123 Data Structures
-Kattis
-  
+- UTSA CS2123 Data Structures
+- Kattis
+- Leetcode
+
 - - - -
 ## Contact <a name="contact"/>
 christinazhang2013@gmail.com
