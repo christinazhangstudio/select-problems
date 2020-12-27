@@ -18,6 +18,7 @@ This repository consists of code for selected algorithms, data structures, or co
 
 - - - -
 ## Priority Queue - Heap Implementation <a name="pq-hi"/>
+This program uses heaps to create a priority queue.  Also included is a driver file that demos the PQ implementation and a makefile to compile the files. 
 
 - - - -
 ## Recursion and Dynamic Programming - Pebble Example <a name="pebble"/>
