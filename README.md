@@ -20,16 +20,27 @@ This repository consists of code for selected algorithms, data structures, or co
 
 - - - -
 ## Recursion and Dynamic Programming - Pebble Example <a name="pebble"/>
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+Consider the following simple two player game:
+- There is a pile of *n* pebbles.
+- The  players  take  turns  removing  pebbles  from  the  pile.  Specifically  they **must** do one of the following on their turn:
+  - Remove 1 pebble from the pile
+  - Remove 2 pebbles from the pile
+  - Remove half of the remaining pebbles from the pile (rounded up).
+- The player that is forced to take the last pebble loses. 
+
+We want to decide if there is a way for the first player to win the game (i.e., assuming perfect play by both players find out whether the first player to take their turn will always win). 
+
+Start by showing that if *n* = 3 player 1 always wins (assuming optimal play):
+![alt text](images/pebble0.jpg)
+Next show that if *n* = 4 player 1 always loses (assuming optimal play):
+![alt text](images/pebble1.jpg)
+
 - - - -
 ## Competitive problems <a name="comp"/>
 | Problem | Solution |
 | --- | --- |
-| Priority Queue - Heap Implementation | C |
-| Pebble Problem using Dynamic Programming | C |
-| <a href='https://open.kattis.com/problems/vote'>Popular Vote</a> | Python 3 |
-| <a href='https://open.kattis.com/problems/lostlineup'>Lost Lineup</a> | C |
+| <a href='https://open.kattis.com/problems/vote'>Popular Vote</a> | [Python 3](popular-vote.py) |
+| <a href='https://open.kattis.com/problems/lostlineup'>Lost Lineup</a> | [C](lostline-up.c) |
 
 - - - -
 ## Contact <a name="contact"/>
