@@ -30,10 +30,15 @@ Consider the following simple two player game:
 
 We want to decide if there is a way for the first player to win the game (i.e., assuming perfect play by both players find out whether the first player to take their turn will always win). 
 
-Start by showing that if *n* = 3 player 1 always wins (assuming optimal play):
+<details>
+<summary>Start by showing that if *n* = 3 player 1 always wins (assuming optimal play):</summary>
 ![alt text](images/pebble0.JPG)
-Next show that if *n* = 4 player 1 always loses (assuming optimal play):
+</details>
+
+<details>
+<summary>Next show that if *n* = 4 player 1 always loses (assuming optimal play):</summary>
 ![alt text](images/pebble1.JPG)
+</details>
 
 - - - -
 ## Competitive problems <a name="comp"/>
