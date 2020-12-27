@@ -39,7 +39,7 @@ Next show that if *n* = 4 player 1 always loses (assuming optimal play):
 ![alt text](images/pebble1.JPG)
 
 The recursive approach has a runtime of O(2^*n*).
-So, while the previous approach solves the problem elegantly, it isn’t practical for even relatively small values of *n* (*n* = 65 took more than two minutes). The problem is that the naive solution solves the same sub-problems repeatedly (trivially we can see  there are only O(n) sub-problems prior to the current one). Fortunately, using dynamic programming we can avoid ever resolving any sub-problem. The idea is to keep the solutions to the sub-problems in a table and check if the solution is present prior to trying to compute the solution with recursion (this solves *n* = 65000 in 0.002 seconds).
+So, while the previous approach solves the problem elegantly, it isn’t practical for even relatively small values of *n* (*n* = 65 took more than two minutes). The problem is that the naive solution solves the same sub-problems repeatedly (trivially we can see  there are only O(*n*) sub-problems prior to the current one). Fortunately, using dynamic programming we can avoid ever resolving any sub-problem. The idea is to keep the solutions to the sub-problems in a table and check if the solution is present prior to trying to compute the solution with recursion (this solves *n* = 65000 in 0.002 seconds).
 
 Here is the DP table for *n = 9*:
 ![alt text](images/pebbleDPTable.JPG)
