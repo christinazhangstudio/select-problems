@@ -52,8 +52,8 @@ Here is the DP table for *n* = 9:
 ## Competitive problems <a name="comp"/>
 | Problem | Solution |
 | --- | --- |
-| <a href='https://open.kattis.com/problems/vote'>Popular Vote</a> | [Python 3](popular-vote.py) |
-| <a href='https://open.kattis.com/problems/lostlineup'>Lost Lineup</a> | [C](lostline-up.c) |
+| <a href='https://open.kattis.com/problems/vote'>Popular Vote</a> | [Python 3](vote.py) |
+| <a href='https://open.kattis.com/problems/lostlineup'>Lost Lineup</a> | [C](lostlineup.c) |
 
 - - - -
 ## Acknowledgements and sources <a name="ack">
