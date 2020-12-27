@@ -17,11 +17,11 @@ This repository and its files were authored by Christina Zhang in Fall-Winter 20
 This repository consists of code for selected algorithms, data structures, or competitive problems/challenges.
 
 - - - -
-## Priority Queue - Heap Implementation <a name="pq-hi"/>
+## [Priority Queue - Heap Implementation](priorityQueueHeap) <a name="pq-hi"/>
 This program uses heaps to create a priority queue.  Also included is a driver file that demos the PQ implementation and a makefile to compile the files. 
 
 - - - -
-## Recursion and Dynamic Programming - Pebble Example <a name="pebble"/>
+## [Recursion and Dynamic Programming - Pebble Example](RecursionAndDP) <a name="pebble"/>
 Consider the following simple two player game:
 - There is a pile of *n* pebbles.
 - The  players  take  turns  removing  pebbles  from  the  pile.  Specifically  they **must** do one of the following on their turn:
