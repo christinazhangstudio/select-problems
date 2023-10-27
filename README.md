@@ -22,7 +22,7 @@ This program uses heaps to create a priority queue.  Also included is a driver f
 
 - - - -
 ## [Recursion and Dynamic Programming - Pebble Example](RecursionAndDP.c) <a name="pebble"/>
-#### This problem was extracted from the UTSA CS2123 Data Structures curriculum. 
+
 Consider the following simple two player game:
 - There is a pile of *n* pebbles.
 - The  players  take  turns  removing  pebbles  from  the  pile.  Specifically  they **must** do one of the following on their turn:
